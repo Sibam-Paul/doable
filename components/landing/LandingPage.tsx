@@ -10,6 +10,7 @@ import { FAQSection } from './FAQSection';
 import { CtaSection } from './CtaSection';
 import { Footer } from './Footer';
 import { HorizontalLine } from './HorizontalLine';
+import { Contributors } from './Contributors';
 
 interface LandingPageProps {
   className?: string;
@@ -66,6 +67,11 @@ export const LandingPage: React.FC<LandingPageProps> = ({ className = '' }) => {
       
       {/* FAQ Section */}
       <FAQSection />
+      
+      <HorizontalLine />
+      
+      {/* Contributors Section */}
+      <Contributors />
       
       <HorizontalLine />
       

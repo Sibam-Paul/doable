@@ -15,6 +15,10 @@ const nextConfig = {
         hostname: 'peerlist.io',
         pathname: '/api/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+      },
     ],
   },
 };
